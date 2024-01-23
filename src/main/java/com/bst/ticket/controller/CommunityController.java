@@ -62,9 +62,15 @@ public class CommunityController {
         return mav;
     }
 
-
     //게시글 작성폼
+    @GetMapping("/writeform")
+    public String communityBoardForm() {
+        logger.info("Community Board Write Form");
+        return "communityBoardWriteForm";
+    }
     //게시글 작성
+
+    
     //게시글 수정
     //게시글 삭제
 
