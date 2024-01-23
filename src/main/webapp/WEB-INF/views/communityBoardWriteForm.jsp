@@ -22,16 +22,16 @@
 <div class="card">
     <h5 class="card-header"> ✎ 게시글 작성 </h5>
     <div class="card-body">
-        <form action="community/write" method="post">
-            <div class="form-group">
-                <label for="title">Title</label>
-                <input type="text" class="form-control" id="boardTitle" name="boardTitle" placeholder="제목을 입력하세요.">
-            </div>
-            <div class="form-group">
-                <label for="content">Content</label>
-                <input type="text" class="form-control" id="boardContent" name="boardContent" placeholder="내용을 입력하세요.">
-            </div>
-            <button type="submit" class="btn btn-primary">작성</button>
+        <form action="/community/write" method="post">
+        <div class="form-group">
+            <label for="title">Title</label>
+            <input type="text" class="form-control" id="boardTitle" name="boardTitle" placeholder="제목을 입력하세요.">
+        </div>
+        <div class="form-group">
+            <label for="content">Content</label>
+            <input type="text" class="form-control" id="boardContent" name="boardContent" placeholder="내용을 입력하세요.">
+        </div>
+        <button type="submit" class="btn btn-primary">작성</button>
         </form>
     </div>
 </div>
